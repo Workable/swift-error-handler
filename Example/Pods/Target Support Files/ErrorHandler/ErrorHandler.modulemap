@@ -1,0 +1,6 @@
+framework module ErrorHandler {
+  umbrella header "ErrorHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
