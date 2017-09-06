@@ -148,7 +148,7 @@ Often the cases the default handler knows about will be good enough.
 ```swift
 do {
     try saveStatus()
-} catch {
+} catch let error {
     ErrorHandler.defaultHandler.handle(error)
 }
 ```
