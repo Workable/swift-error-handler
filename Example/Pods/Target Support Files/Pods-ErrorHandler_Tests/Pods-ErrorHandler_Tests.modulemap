@@ -1,0 +1,6 @@
+framework module Pods_ErrorHandler_Tests {
+  umbrella header "Pods-ErrorHandler_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
