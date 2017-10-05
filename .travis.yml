@@ -10,5 +10,5 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ErrorHandler.xcworkspace -scheme ErrorHandler-Example -sdk iphonesimulator10.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ErrorHandler.xcworkspace -scheme ErrorHandler-Example -destination "OS=10.3.1,name=iPhone 7 Plus" ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint

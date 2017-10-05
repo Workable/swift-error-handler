@@ -1,5 +1,7 @@
 # ErrorHandler
 
+[![Travis](https://travis-ci.org/Workable/swift-error-handler.svg?branch=master)](https://travis-ci.org/Workable/swift-error-handler)
+
 > Elegant and flexible error handling for Swift
 
 ErrorHandler enables expressing complex error handling logic with a few lines of code using a memorable fluent API.
