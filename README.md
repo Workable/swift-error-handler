@@ -1,4 +1,4 @@
-# ErrorHandler
+![Error Handler](https://github.com/Workable/swift-error-handler/blob/master/ErrorHandler.png)
 
 [![Travis](https://travis-ci.org/Workable/swift-error-handler.svg?branch=master)](https://travis-ci.org/Workable/swift-error-handler)
 
