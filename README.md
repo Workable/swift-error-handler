@@ -55,7 +55,7 @@ import PackageDescription
 let package = Package(
     name: "MyApp",
     dependencies: [
-        .Package(url: "https://github.com/Workable/swift-error-handler.git", majorVersion: 0)
+        .package(url: "https://github.com/Workable/swift-error-handler.git", from: "0.8")
     ]
 )
 ```
