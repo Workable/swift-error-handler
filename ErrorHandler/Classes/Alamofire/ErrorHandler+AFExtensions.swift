@@ -13,12 +13,12 @@ import Foundation
 
 public extension ErrorHandler {
     
-    public func onAFError(withStatus statusCode: Int, do action: @escaping ErrorAction) -> ErrorHandler {
+    func onAFError(withStatus statusCode: Int, do action: @escaping ErrorAction) -> ErrorHandler {
         let matcher = AFErrorStatusCodeMatcher(statusCode: statusCode)
         return self.on(matcher, do: action)
     }
     
-    public func onAFError(withStatus range: Range<Int>, do action: @escaping ErrorAction) -> ErrorHandler {
+    func onAFError(withStatus range: Range<Int>, do action: @escaping ErrorAction) -> ErrorHandler {
         let matcher = AFErrorStatusCodeMatcher(range)
         return self.on(matcher, do: action)
     }
