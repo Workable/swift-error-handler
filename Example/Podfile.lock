@@ -1,11 +1,11 @@
 PODS:
   - Alamofire (4.9.1)
-  - ErrorHandler (0.8.1):
-    - ErrorHandler/Core (= 0.8.1)
-  - ErrorHandler/Alamofire (0.8.1):
+  - ErrorHandler (0.8.2):
+    - ErrorHandler/Core (= 0.8.2)
+  - ErrorHandler/Alamofire (0.8.2):
     - Alamofire (~> 4.1)
     - ErrorHandler/Core
-  - ErrorHandler/Core (0.8.1)
+  - ErrorHandler/Core (0.8.2)
 
 DEPENDENCIES:
   - ErrorHandler (from `../`)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ErrorHandler: 7bff711b2dcb68a033ba6501a3d3fbb7c982fe11
+  ErrorHandler: 5184ce9905c80d20810cc1abcf2ebc3ea3d56021
 
 PODFILE CHECKSUM: 8e328fdbad084717f3c5a8e2ce8f3f3671d29c67
 

@@ -1,6 +1,6 @@
 {
   "name": "ErrorHandler",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "summary": "Elegant and flexible error handling for Swift",
   "description": "> Elegant and flexible error handling for Swift\n\nErrorHandler enables expressing complex error handling logic with a few lines of code using a memorable fluent API.",
   "homepage": "https://github.com/Workable/swift-error-handler",
@@ -20,7 +20,7 @@
   },
   "source": {
     "git": "https://github.com/Workable/swift-error-handler.git",
-    "tag": "0.8.1"
+    "tag": "0.8.2"
   },
   "default_subspecs": "Core",
   "subspecs": [
