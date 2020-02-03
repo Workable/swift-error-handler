@@ -1,7 +1,7 @@
 {
   "name": "ErrorHandler",
-  "version": "0.8.0",
-  "summary": "Error handling library for Swift",
+  "version": "0.8.1",
+  "summary": "Elegant and flexible error handling for Swift",
   "description": "> Elegant and flexible error handling for Swift\n\nErrorHandler enables expressing complex error handling logic with a few lines of code using a memorable fluent API.",
   "homepage": "https://github.com/Workable/swift-error-handler",
   "license": {
@@ -12,7 +12,6 @@
     "Kostas Kremizas": "kremizask@gmail.com",
     "Eleni Papanikolopoulou": "eleni.papanikolopoulou@gmail.com"
   },
-  "social_media_url": "",
   "platforms": {
     "ios": "8.0",
     "osx": "10.10",
@@ -21,7 +20,7 @@
   },
   "source": {
     "git": "https://github.com/Workable/swift-error-handler.git",
-    "tag": "0.8.0"
+    "tag": "0.8.1"
   },
   "default_subspecs": "Core",
   "subspecs": [
