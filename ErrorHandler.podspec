@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ErrorHandler"
-  s.version      = "0.8.2"
+  s.version      = "0.8.3"
   s.swift_versions = ['4.2', '5.0']
   s.summary      = "Elegant and flexible error handling for Swift"
   s.description  = <<-DESC
