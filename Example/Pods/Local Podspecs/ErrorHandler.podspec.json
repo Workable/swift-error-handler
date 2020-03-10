@@ -1,6 +1,10 @@
 {
   "name": "ErrorHandler",
   "version": "0.8.2",
+  "swift_versions": [
+    "4.2",
+    "5.0"
+  ],
   "summary": "Elegant and flexible error handling for Swift",
   "description": "> Elegant and flexible error handling for Swift\n\nErrorHandler enables expressing complex error handling logic with a few lines of code using a memorable fluent API.",
   "homepage": "https://github.com/Workable/swift-error-handler",
@@ -13,10 +17,10 @@
     "Eleni Papanikolopoulou": "eleni.papanikolopoulou@gmail.com"
   },
   "platforms": {
-    "ios": "8.0",
-    "osx": "10.10",
-    "watchos": "2.0",
-    "tvos": "9.0"
+    "ios": "10.0",
+    "osx": "10.12",
+    "tvos": "10.0",
+    "watchos": "3.0"
   },
   "source": {
     "git": "https://github.com/Workable/swift-error-handler.git",
@@ -34,12 +38,13 @@
       "source_files": "ErrorHandler/Classes/Alamofire/**/*",
       "dependencies": {
         "Alamofire": [
-          "~> 4.1"
+          "~> 5"
         ],
         "ErrorHandler/Core": [
 
         ]
       }
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }

@@ -12,10 +12,10 @@ ErrorHandler enables expressing complex error handling logic with a few lines of
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors             = { "Kostas Kremizas" => "kremizask@gmail.com",
                             "Eleni Papanikolopoulou" => "eleni.papanikolopoulou@gmail.com" }
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
-  s.watchos.deployment_target = '2.0'
-  s.tvos.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.12'
+  s.tvos.deployment_target = '10.0'
+  s.watchos.deployment_target = '3.0'
   s.source       = { :git => "https://github.com/Workable/swift-error-handler.git", :tag => s.version.to_s }
 
   s.default_subspec = "Core"
@@ -27,7 +27,7 @@ ErrorHandler enables expressing complex error handling logic with a few lines of
 
   s.subspec "Alamofire" do |ss|
     ss.source_files = "ErrorHandler/Classes/Alamofire/**/*"
-    ss.dependency "Alamofire", "~> 4.1"
+    ss.dependency "Alamofire", "~> 5"
     ss.dependency "ErrorHandler/Core"
   end
 end

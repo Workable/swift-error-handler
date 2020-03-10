@@ -1,9 +1,9 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.0.2)
   - ErrorHandler (0.8.2):
     - ErrorHandler/Core (= 0.8.2)
   - ErrorHandler/Alamofire (0.8.2):
-    - Alamofire (~> 4.1)
+    - Alamofire (~> 5)
     - ErrorHandler/Core
   - ErrorHandler/Core (0.8.2)
 
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ErrorHandler: 5184ce9905c80d20810cc1abcf2ebc3ea3d56021
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  ErrorHandler: 5b44764fe86ed8771f7b5e79599bd4d5fd753a4f
 
-PODFILE CHECKSUM: 8e328fdbad084717f3c5a8e2ce8f3f3671d29c67
+PODFILE CHECKSUM: 1ecd38147b811789385bbac850686caa2f83077b
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.8.4
